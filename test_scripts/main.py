@@ -1,11 +1,11 @@
 import tkinter as tk
 #from gui.ScoreboardGUI import ScoreboardGUI
 #from gui.ManagerLoginGUI import ManagerLoginGUI
-from gui.HomePageGUI import HomePageGUI
+from gui.ManagerLoginGUI import ManagerLoginGUI
 
 def main():
     root = tk.Tk()
-    app = HomePageGUI(root)
+    app = ManagerLoginGUI(root)
     root.mainloop()
 
 if __name__ == "__main__":

@@ -75,15 +75,19 @@ class MatchManager:
             conn.close()
 
     def get_all_matches(self):
-        conn = get_connection()
-        cursor = conn.cursor()
         try:
-            cursor.execute("SELECT match_id, team1_name, team2_name, match_date, score_team1, score_team2 FROM matchs")
-            matchs = cursor.fetchall()
-            return matchs
+            conn = get_connection()
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT match_id, team1_name, team2_name, match_date, score_team1, score_team2 FROM matchs"
+            )
+            return cursor.fetchall()
         except Exception as e:
-            print(f"Error fetching matches: {e}")
+            print("DB error in get_all_matches:", e)
             return []
         finally:
-            cursor.close()
-            conn.close()
+            try:
+                cursor.close()
+                conn.close()
+            except:
+                pass

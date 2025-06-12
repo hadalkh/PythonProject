@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="722b37fa-2044-4087-a29a-422a4999be1e" name="Changes" comment="Added new classes for player and manager registration with password hashing">
-      <change afterPath="$PROJECT_DIR$/gui/ShowCardsGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/ShowMatchesClassGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/ShowPlayerCLassGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/ShowStatisticGUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui/ShowTeamsGUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/HomePageGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/HomePageGUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/ManagerRegisterGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ManagerRegisterGUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/ScoreboardGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ScoreboardGUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShowMatchesClassGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShowMatchesClassGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/ShowTeamsGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/ShowTeamsGUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/MatchManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/MatchManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/match.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/test_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_manager_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/test_manager_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/test_scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PlayerManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/PlayerManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/TeamManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/TeamManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.HomePageGUI.executor": "Run",
+    "Python.ManagerLogin.executor": "Run",
+    "Python.ShowMatchesClassGUI.executor": "Run",
+    "Python.ShowPlayerCLassGUI.executor": "Run",
     "Python.ShowStatisticGUI.executor": "Run",
+    "Python.ShowTeamsGUI.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test_connection.executor": "Run",
     "Python.test_manager.executor": "Run",
@@ -96,8 +91,8 @@
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ShowStatisticGUI">
-    <configuration name="ShowStatisticGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="HomePageGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SportsMatchTrackingProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +106,76 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/ShowStatisticGUI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/HomePageGUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ManagerLogin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SportsMatchTrackingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/ManagerLogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShowMatchesClassGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SportsMatchTrackingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/ShowMatchesClassGUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShowTeamsGUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SportsMatchTrackingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/ShowTeamsGUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,82 +207,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SportsMatchTrackingProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_scripts/test_manager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_manager_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SportsMatchTrackingProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_scripts/test_manager_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SportsMatchTrackingProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_scripts/test_scoreboard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ShowStatisticGUI" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test_manager" />
-        <item itemvalue="Python.test_scoreboard" />
-        <item itemvalue="Python.test_manager_login" />
+        <item itemvalue="Python.ManagerLogin" />
+        <item itemvalue="Python.HomePageGUI" />
+        <item itemvalue="Python.ShowMatchesClassGUI" />
+        <item itemvalue="Python.ShowTeamsGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +240,7 @@
       <workItem from="1748678817228" duration="26733000" />
       <workItem from="1748786437170" duration="2138000" />
       <workItem from="1748935557861" duration="9819000" />
-      <workItem from="1749727090708" duration="11183000" />
+      <workItem from="1749727090708" duration="13996000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -263,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748728309080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added new classes for player and manager registration with password hashing">
+      <option name="closed" value="true" />
+      <created>1749744014098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749744014098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +314,12 @@
     <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$ShowStatisticGUI.coverage" NAME="ShowStatisticGUI Coverage Results" MODIFIED="1749741468387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$test_scoreboard.coverage" NAME="test_scoreboard Coverage Results" MODIFIED="1748697534059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
     <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$test_connection.coverage" NAME="test_connection Coverage Results" MODIFIED="1747664221097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$main.coverage" NAME="main Coverage Results" MODIFIED="1749735923790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$main.coverage" NAME="main Coverage Results" MODIFIED="1749747644526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$ShowMatchesClassGUI.coverage" NAME="ShowMatchesClassGUI Coverage Results" MODIFIED="1749746625358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$ManagerLogin.coverage" NAME="ManagerLogin Coverage Results" MODIFIED="1749747506959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$ShowTeamsGUI.coverage" NAME="ShowTeamsGUI Coverage Results" MODIFIED="1749744639259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$HomePageGUI.coverage" NAME="HomePageGUI Coverage Results" MODIFIED="1749746641837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$ShowPlayerCLassGUI.coverage" NAME="ShowPlayerCLassGUI Coverage Results" MODIFIED="1749744477869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
     <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$test_player.coverage" NAME="test_player Coverage Results" MODIFIED="1747664207572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
     <SUITE FILE_PATH="coverage/SportsMatchTrackingProject$test_manager.coverage" NAME="test_manager Coverage Results" MODIFIED="1748699421801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
