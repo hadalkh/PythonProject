@@ -79,3 +79,4 @@ class HomePageGUI:
             show_cards_window = tk.Toplevel(self.master)
             from gui.ShowCardsGUI import ShowCardsGUI
             ShowCardsGUI(show_cards_window)
+            # olelellelelele
