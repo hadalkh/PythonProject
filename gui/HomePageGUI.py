@@ -48,19 +48,34 @@ class HomePageGUI:
         ScoreboardGUI(scoreboard_window)
 
     def show_matches(self):
-            print("Open Matches Window")
+        print("Open Matches Window")
+        show_matches_window = tk.Toplevel(self.master)
+        from gui.ShowMatchesClassGUI import ShowMatchesClassGUI
+        ShowMatchesClassGUI(show_matches_window)
 
     def show_teams(self):
-            print("Open Teams Window")
+        print("Open Teams Window")
+        show_teams_window = tk.Toplevel(self.master)
+        from gui.ShowTeamsGUI import ShowTeamsGUI
+        ShowTeamsGUI(show_teams_window)
 
     def show_players(self):
             print("Open Players Window")
+            show_players_window = tk.Toplevel(self.master)
+            from gui.ShowPlayerCLassGUI import ShowPlayersClassGUI
+            ShowPlayersClassGUI(show_players_window)
 
     def show_history(self):
             print("Open Match History Window")
 
     def show_statistics(self):
             print("Open Statistics Window")
+            show_statistic_window = tk.Toplevel(self.master)
+            from gui.ShowStatisticGUI import ShowStatisticsGUI
+            ShowStatisticsGUI(show_statistic_window)
 
     def show_cards(self):
             print("Open Cards Window")
+            show_cards_window = tk.Toplevel(self.master)
+            from gui.ShowCardsGUI import ShowCardsGUI
+            ShowCardsGUI(show_cards_window)

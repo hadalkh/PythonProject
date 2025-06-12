@@ -27,7 +27,7 @@ class ScoreboardGUI:
         refresh_btn = tk.Button(button_frame, text="Refresh", command=self.load_scoreboard)
         refresh_btn.pack(side=tk.LEFT, padx=10)
 
-        exit_btn = tk.Button(button_frame, text="Exit", command=master.quit)
+        exit_btn = tk.Button(button_frame, text="Exit", command=self.return_home)
         exit_btn.pack(side=tk.LEFT, padx=10)
 
         self.load_scoreboard()
@@ -43,3 +43,8 @@ class ScoreboardGUI:
         # Insert into treeview
         for row in data:
             self.tree.insert("", tk.END, values=tuple(row[col] for col in self.columns))
+    def return_home(self):
+        self.master.destroy() #close scoreboard window
+        from gui.HomePageGUI import HomePageGUI
+        home_window = tk.Toplevel()
+        HomePageGUI(home_window)
