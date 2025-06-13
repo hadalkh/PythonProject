@@ -3,7 +3,7 @@ from tkinter import ttk
 from models.PlayerManager import PlayerManager
 
 class ShowPlayersClassGUI:
-    def __init__(self, master):
+    def __init__(self, master, role):
         self.master = master
         self.master.title("Players List")
         self.master.geometry("700x400")

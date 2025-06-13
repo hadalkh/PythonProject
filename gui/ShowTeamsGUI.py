@@ -3,7 +3,7 @@ from tkinter import messagebox
 from models.TeamManager import TeamManager
 
 class ShowTeamsGUI:
-    def __init__(self, root):
+    def __init__(self, root, role):
         self.manager = TeamManager()
         root.title("Teams List")
         root.geometry("400x500")

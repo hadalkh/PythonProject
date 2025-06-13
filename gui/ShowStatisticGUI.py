@@ -4,7 +4,7 @@ from tkinter import messagebox
 from models.MatchManager import MatchManager  # your MatchManager import
 
 class ShowStatisticsGUI:
-    def __init__(self, master):
+    def __init__(self, master, role):
         self.master = master
         self.master.title("Team Statistics")
         self.master.geometry("800x400")

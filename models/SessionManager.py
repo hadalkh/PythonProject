@@ -14,4 +14,4 @@ class SessionManager:
 
     @classmethod
     def clear_session(cls):
-        cls.logged_in_manger = None
+        cls.logged_in_manager = None

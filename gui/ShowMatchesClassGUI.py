@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from models.MatchManager import MatchManager
 
 class ShowMatchesClassGUI:
-    def __init__(self, master):
+    def __init__(self, master,role):
         self.master = master
         self.master.title("Matches List")
         self.master.geometry("800x450")

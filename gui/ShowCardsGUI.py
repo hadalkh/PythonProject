@@ -7,7 +7,7 @@ def get_connection():
     return sqlite3.connect("sports.db")
 
 class ShowCardsGUI:
-    def __init__(self, root):
+    def __init__(self, root, role):
         self.root = root
         self.root.title("Cards List")
         self.root.geometry("500x400")
